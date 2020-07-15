@@ -1,0 +1,11 @@
+[     0.143] Netlist: test/NF/AES_GF256_Inversion_NOfresh.nl
+[     0.163] Parse: 1188 gate(s) / 2059 signal(s)
+[     0.782] Elaborate: 1188 gate(s) / 2059 signal(s)
+[     7.271] probing.standard (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[    28.016] probing.robust   (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[    29.857] NI.standard      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xor:line353>
+[    29.929] NI.robust        (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <reg:line370>
+[    31.670] SNI.standard     (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xor:line353>
+[    31.741] SNI.robust       (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <reg:line370>
+[    32.295] PINI.standard    (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xnor:line48>
+[    32.306] PINI.robust      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <reg:line329>

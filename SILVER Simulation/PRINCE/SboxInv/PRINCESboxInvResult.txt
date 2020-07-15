@@ -1,0 +1,12 @@
+[     0.000] Netlist: test/NF/prince_sboxinverse_NF.nl
+[     0.003] Parse: 250 gate(s) / 420 signal(s)
+[     0.037] Elaborate: 250 gate(s) / 420 signal(s)
+[     0.051] probing.standard (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[     0.056] probing.robust   (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[     0.057] NI.standard      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xnor:line202>
+[     0.059] NI.robust        (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <out:line243>
+[     0.060] SNI.standard     (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xnor:line202>
+[     0.062] SNI.robust       (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <out:line243>
+[     0.062] PINI.standard    (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <or:line11>
+[     0.063] PINI.robust      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <reg:line142>
+[     0.064] uniformity               -- [1;31mFAIL[0m.

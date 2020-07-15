@@ -1,0 +1,12 @@
+[     0.026] Netlist: test/NF/PresentMaskedSbox_2share_NF.nl
+[     0.029] Parse: 178 gate(s) / 287 signal(s)
+[     0.043] Elaborate: 178 gate(s) / 287 signal(s)
+[     0.068] probing.standard (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[     0.072] probing.robust   (d ≤ 1) -- [1;32mPASS[0m.	>> Probes: <in:line8,in:line4>
+[     0.075] NI.standard      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xor:line137>
+[     0.076] NI.robust        (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <out:line171>
+[     0.077] SNI.standard     (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xor:line137>
+[     0.080] SNI.robust       (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <out:line171>
+[     0.085] PINI.standard    (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <xor:line11>
+[     0.085] PINI.robust      (d ≤ 1) -- [1;31mFAIL[0m.	>> Probes: <reg:line96>
+[     0.087] uniformity               -- [1;32mPASS[0m.
