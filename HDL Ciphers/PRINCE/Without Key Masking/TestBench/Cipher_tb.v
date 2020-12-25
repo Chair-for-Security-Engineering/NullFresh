@@ -4,7 +4,7 @@
 * -----------------------------------------------------------------
 * COMPANY : Ruhr University Bochum
 * AUTHOR  : Amir Moradi (amir.moradi@rub.de) Aein Rezaei Shahmirzadi (aein.rezaeishahmirzadi@rub.de)
-* DOCUMENT: https://eprint.iacr.org/2020/890.pdf
+* DOCUMENT: https://doi.org/10.46586/tches.v2021.i1.305-342
 * -----------------------------------------------------------------
 *
 * Copyright (c) 2020, Amir Moradi, Aein Rezaei Shahmirzadi
